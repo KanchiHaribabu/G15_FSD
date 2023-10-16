@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#layout {
+    display: flex;
+    flex-direction: column;
+    width: 60%; 
+    min-height: 130px; 
+    margin: auto;
+}
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    min-height: 60px;
+    background-color: rgb(46, 126, 206);
+    color: rgb(9, 6, 6);
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 55px;
+    margin-top: 10px ;
+    background-color: rgb(230, 65, 65);
+    justify-content: space-evenly;
+    align-items: center;
+}
+a {
+    color: blue;
+}
+#main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 400px;  
+    margin-top: 10px;
+}
+#sidebar {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 20%;
+    background-color: rgb(192, 17, 17);
+    justify-content: center;
+    padding-top: 20px;
+    color: rgb(236, 225, 225);
+}
+#section-article {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+}
+#section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 50%;
+    background-color:rgb(29, 227, 65);
+    align-items: center;
+    padding-top: 15px;
+    color: white;
+}
+#article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 50%;
+    background-color: rgb(19, 123, 227);
+    align-items: center;
+    padding-top: 15px;
+    color: white;
+}
+#summary {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 65px;
+    background-color: rgb(20, 75, 130);
+    margin-top: 10px;
+    padding-top: 5px;
+    color: white;
+}
+#Footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 50px ;
+    background-color: rgb(14, 11, 11);
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

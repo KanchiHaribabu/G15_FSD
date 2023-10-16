@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Camp Registration</title>
+    <link rel="stylesheet" href="../CSS/RegistrationForm.css">
+</head>
+
+<body>
+    <header>
+        <h1>Summer Camp Registration</h1>
+    </header>
+    <main>
+        <section class="registration-form">
+            <h2 class="head">Registration Form</h2>
+
+            <form action="#" method="post" enctype="multipart/form-data">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required>
+
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+
+                <label for="city">City:</label>
+                <select id="city" name="city" required>
+                    <option value="New York">New York</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="Miami">Miami</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label>Hobbies:</label>
+                <input type="checkbox" id="hobby1" name="hobbies" value="hobby1">
+                <label for="hobby1">Hobby 1</label>
+                <input type="checkbox" id="hobby2" name="hobbies" value="hobby2">
+                <label for="hobby2">Hobby 2</label>
+                <input type="checkbox" id="hobby3" name="hobbies" value="hobby3">
+                <label for="hobby3">Hobby 3</label>
+
+                <label for="photo">Upload Photo:</label>
+                <input type="file" id="photo" name="photo" accept="image/*" required>
+
+                <label for="idproof">Upload ID Proof:</label>
+                <input type="file" id="idproof" name="idproof" accept=".pdf,.jpg,.png" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Summer Camp. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

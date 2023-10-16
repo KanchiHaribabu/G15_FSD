@@ -1,0 +1,14 @@
+.one {
+    width: 200px;
+    height: 200px;
+    float: right; /* positioning and formatting content*/
+}
+.two {
+    width: 200px;
+    height: 200px;
+    float: left;
+
+}
+.float {
+    margin-bottom: 100px;
+}
